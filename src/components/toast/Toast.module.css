@@ -1,0 +1,47 @@
+.container {
+    font-size: 14px;
+    position: fixed;
+    z-index: 10;
+}
+
+.rightBtn {
+    bottom: 1rem;
+    right: 1rem;
+    animation: toast-in-right .8s;
+}
+
+.notification {
+    margin-bottom: 1rem;
+    box-shadow: 0 0 10px #999;
+    opacity: 0.9;
+}
+
+.toast {
+    text-align: center;
+    border-radius: 30px;
+    height: 40px;
+    width: 300px;
+    color: #fff;
+    padding: 10px;
+}
+
+.container button {
+    float: right;
+    background: none;
+    border: none;
+    color: #fff;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+@keyframes toast-in-right {
+    from {
+
+        transform: translate(100%);
+    }
+
+    to {
+
+        transform: translate(0);
+    }
+}
